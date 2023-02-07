@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {"title":"Ojjo"})
+
+<body>
+ <div class="page">
+  @@include('html/header.html', {})
+  <main class="main">
+   <section class="main-screen">
+    <div class="main-screen__bg-filter">
+     <div class="main-screen__bg ibg">
+      <img src="img/main-screen/main-screen-bg.jpg" alt="Image">
+     </div>
+    </div>
+    <div class="main-screen__main">
+     <h1 class="main-screen__title">
+      Долго, дорого, богато!
+     </h1>
+     <a class="main-screen__btn btn" href="#">
+      каталог изделий
+     </a>
+     <ul class="main-screen__list">
+      <li class="main-screen__item">
+       <a class="main-screen__link" href="#">
+        <img src="img/main-screen/brands.png" alt="Brand">
+       </a>
+      </li>
+      <li class="main-screen__item">
+       <a class="main-screen__link" href="#">
+        <img src="img/main-screen/brands.png" alt="Brand">
+       </a>
+      </li>
+      <li class="main-screen__item">
+       <a class="main-screen__link" href="#">
+        <img src="img/main-screen/brands.png" alt="Brand">
+       </a>
+      </li>
+      <li class="main-screen__item">
+       <a class="main-screen__link" href="#">
+        <img src="img/main-screen/brands.png" alt="Brand">
+       </a>
+      </li>
+      <li class="main-screen__item">
+       <a class="main-screen__link" href="#">
+        <img src="img/main-screen/brands.png" alt="Brand">
+       </a>
+      </li>
+      <li class="main-screen__item">
+       <a class="main-screen__link" href="#">
+        <img src="img/main-screen/brands.png" alt="Brand">
+       </a>
+      </li>
+     </ul>
+    </div>
+   </section>
+   <section class="cat">
+    <div class="container">
+     <div class="cat__wrapper">
+      <div class="cat__heading heading">
+       <p class="heading__suptitle">
+        К мероприятиям
+       </p>
+       <h2 class="heading__title">
+        Настоящая красота здесь!
+       </h2>
+      </div>
+      <div class="cat__inner">
+       <div class="cat__filters">
+        <button class="cat__filter-dropdown" type="button">
+         <i>
+          <?xml version="1.0" ?><svg enable-background="new 0 0 32 32" id="Glyph" version="1.1" viewBox="0 0 32 32"
+           xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+           <path
+            d="M29.815,6.168C29.484,5.448,28.783,5,27.986,5H4.014c-0.797,0-1.498,0.448-1.83,1.168  c-0.329,0.714-0.215,1.53,0.297,2.128c0,0,0.001,0.001,0.001,0.001L12,19.371V28c0,0.369,0.203,0.708,0.528,0.882  C12.676,28.961,12.838,29,13,29c0.194,0,0.387-0.057,0.555-0.168l6-4C19.833,24.646,20,24.334,20,24v-4.629l9.519-11.074  C30.031,7.698,30.145,6.882,29.815,6.168z"
+            id="XMLID_276_" fill="#fff" />
+          </svg>
+         </i>
+         <i>
+          <?xml version="1.0" ?>
+          <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
+           height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"
+           width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+           xmlns:xlink="http://www.w3.org/1999/xlink">
+           <path
+            d="M98.9,184.7l1.8,2.1l136,156.5c4.6,5.3,11.5,8.6,19.2,8.6c7.7,0,14.6-3.4,19.2-8.6L411,187.1l2.3-2.6  c1.7-2.5,2.7-5.5,2.7-8.7c0-8.7-7.4-15.8-16.6-15.8v0H112.6v0c-9.2,0-16.6,7.1-16.6,15.8C96,179.1,97.1,182.2,98.9,184.7z"
+            fill="#fff" />
+          </svg>
+         </i>
+        </button>
+        <div class="cat__filter-box">
+         <button class="cat__filter cat__filter--active" type="button" data-filter="all">
+          <span>
+           Все
+          </span>
+          <span></span>
+         </button>
+         <button class="cat__filter" type="button" data-filter=".cufflinks">
+          <span>
+           МУЖУ
+          </span>
+          <span></span>
+         </button>
+         <button class="cat__filter" type="button" data-filter=".earrings">
+          <span>
+           жене
+          </span>
+          <span></span>
+         </button>
+         <button class="cat__filter" type="button" data-filter=".bracelets">
+          <span>
+           Свадьба
+          </span>
+          <span></span>
+         </button>
+         <button class="cat__filter" type="button" data-filter=".rings">
+          <span>
+           коллекции
+          </span>
+          <span></span>
+         </button>
+         <button class="cat__filter" type="button" data-filter=".watch">
+          <span>
+           редкость
+          </span>
+          <span></span>
+         </button>
+        </div>
+       </div>
+       <div class="cat__content">
+        <a class="mix cat__content-item pendants" href="#" data-order="1">
+         <div class="cat__content-bg ibg">
+          <div class="cat__content-bg-filter">
+           <img src="img/cat/cat-1.jpg" alt="Image">
+          </div>
+         </div>
+         <h3 class="cat__content-title">
+          подвески
+         </h3>
+        </a>
+        <a class="mix cat__content-item bracelets" href="#" data-order="2">
+         <div class="cat__content-bg ibg">
+          <div class="cat__content-bg-filter">
+           <img src="img/cat/cat-2.jpg" alt="Image">
+          </div>
+         </div>
+         <h3 class="cat__content-title">
+          браслеты
+         </h3>
+        </a>
+        <a class="mix cat__content-item rings" href="#" data-order="3">
+         <div class="cat__content-bg ibg">
+          <div class="cat__content-bg-filter">
+           <img src="img/cat/cat-3.jpg" alt="Image">
+          </div>
+         </div>
+         <h3 class="cat__content-title">
+          Кольца
+         </h3>
+        </a>
+        <a class="mix cat__content-item cufflinks" href="#" data-order="4">
+         <div class="cat__content-bg ibg">
+          <div class="cat__content-bg-filter">
+           <img src="img/cat/cat-4.jpg" alt="Image">
+          </div>
+         </div>
+         <h3 class="cat__content-title">
+          запонки
+         </h3>
+        </a>
+        <a class="mix cat__content-item earrings" href="#" data-order="5">
+         <div class="cat__content-bg ibg">
+          <div class="cat__content-bg-filter">
+           <img src="img/cat/cat-5.jpg" alt="Image">
+          </div>
+         </div>
+         <h3 class="cat__content-title">
+          серьги
+         </h3>
+        </a>
+        <a class="mix cat__content-item watch" href="#" data-order="6">
+         <div class="cat__content-bg ibg">
+          <div class="cat__content-bg-filter">
+           <img src="img/cat/cat-6.jpg" alt="Image">
+          </div>
+         </div>
+         <h3 class="cat__content-title">
+          часы
+         </h3>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="salons mb-b">
+    <div class="salons__bg ibg">
+     <img src="img/bg.jpg" alt="Image">
+    </div>
+    <div class="container">
+     <div class="salons__wrapper">
+      <div class="salons__heading heading">
+       <p class="heading__suptitle">
+        Не знаете, что выбрать?
+       </p>
+       <h2 class="heading__title">
+        Посетите наши салоны в Москве
+       </h2>
+      </div>
+      <p class="salons__text">
+       Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты. Он силуэт своих осталось
+       продолжил алфавит великий семантика, его моей это рукопись то за текстов, заманивший, ему предупреждал свой
+       запятых эта большой путь ipsum курсивных!
+      </p>
+      <a class="salons__btn btn" href="#">
+       наши салоны
+      </a>
+     </div>
+    </div>
+   </section>
+   <section class="articles">
+    <div class="container">
+     <div class="articles__wrapper">
+      <div class="articles__heading heading">
+       <p class="heading__suptitle">
+        Полезные статьи
+       </p>
+       <h2 class="heading__title">
+        Лучшие советы по подбору дорогих подарков
+       </h2>
+      </div>
+      <article class="articles__inner">
+       <a class="articles__item" href="#">
+        <div class="articles__item-bg ibg">
+         <div class="articles__item-bg-filter">
+          <img src="img/articles/articles-item-bg-1.jpg" alt="Image">
+         </div>
+        </div>
+        <h3 class="articles__item-title">
+         Как выбрать
+         часы для своей
+         будущей жены
+        </h3>
+       </a>
+       <a class="articles__item" href="#">
+        <div class="articles__item-bg ibg">
+         <div class="articles__item-bg-filter">
+          <img src="img/articles/articles-item-bg-2.jpg" alt="Image">
+         </div>
+        </div>
+        <h3 class="articles__item-title">
+         Запонки для мужа:
+         7 ключевых правил
+         покупки аксессуара
+        </h3>
+       </a>
+       <a class="articles__item" href="#">
+        <div class="articles__item-bg ibg">
+         <div class="articles__item-bg-filter">
+          <img src="img/articles/articles-item-bg-3.jpg" alt="Image">
+         </div>
+        </div>
+        <h3 class="articles__item-title">
+         Как выбрать
+         обручальные кольца
+         молодоженам
+        </h3>
+       </a>
+      </article>
+      <a class="articles__btn btn" href="#">
+       читать наш блог
+      </a>
+     </div>
+    </div>
+   </section>
+   <section class="social">
+    <div class="container">
+     <div class="social__wrapper">
+      <div class="social__heading heading">
+       <a class="heading__suptitle" href="#">
+        #ojjo_jewerly
+       </a>
+       <h2 class="heading__title">
+        Мы в социальных сетях
+       </h2>
+      </div>
+      <div class="social__gallery">
+       <a class="social__gallery-item social__gallery-item--1" href="https://www.youtube.com/watch?v=rUxyKA_-grg"
+        data-fancybox="gallery">
+        <div class="social__gallery-item-img ibg">
+         <img src="img/social/social-1.jpg" alt="Preview">
+        </div>
+       </a>
+       <a class="social__gallery-item social__gallery-item--2" href="img/social/social-2.jpg" data-fancybox="gallery">
+        <div class="social__gallery-item-img ibg">
+         <img src="img/social/social-2.jpg" alt="Preview">
+        </div>
+       </a>
+       <a class="social__gallery-item social__gallery-item--3" href="img/social/social-3.jpg" data-fancybox="gallery">
+        <div class="social__gallery-item-img ibg">
+         <img src="img/social/social-3.jpg" alt="Preview">
+        </div>
+       </a>
+       <a class="social__gallery-item social__gallery-item--4" href="img/social/social-4.jpg" data-fancybox="gallery">
+        <div class="social__gallery-item-img ibg">
+         <img src="img/social/social-4.jpg" alt="Preview">
+        </div>
+       </a>
+       <a class="social__gallery-item social__gallery-item--5" href="img/social/social-5.jpg" data-fancybox="gallery">
+        <div class="social__gallery-item-img ibg">
+         <img src="img/social/social-5.jpg" alt="Preview">
+        </div>
+       </a>
+       <a class="social__gallery-item social__gallery-item--6" href="img/social/social-6.jpg" data-fancybox="gallery">
+        <div class="social__gallery-item-img ibg">
+         <img src="img/social/social-6.jpg" alt="Preview">
+        </div>
+       </a>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="mailing mb-t">
+    <div class="mailing__bg ibg">
+     <img src="img/bg.jpg" alt="Image">
+    </div>
+    <div class="container">
+     <div class="mailing__wrapper">
+      <div class="mailing__heading heading">
+       <p class="heading__suptitle">
+        Полезные советы и персональный предложения
+       </p>
+       <h2 class="heading__title">
+        Эксклюзивная рассылка
+       </h2>
+      </div>
+      <div class="mailing__inner">
+       <ul class="mailing__list">
+        <li class="mailing__item">
+         <div class="mailing__icon">
+          <img src="img/icons/mailing.svg" alt="Icon">
+         </div>
+         Личный менеджер
+        </li>
+        <li class="mailing__item">
+         <div class="mailing__icon">
+          <img src="img/icons/mailing.svg" alt="Icon">
+         </div>
+         Доставка и оформление
+        </li>
+        <li class="mailing__item">
+         <div class="mailing__icon">
+          <img src="img/icons/mailing.svg" alt="Icon">
+         </div>
+         Индивидуальный дизайн
+        </li>
+       </ul>
+       <form class="mailing__form" action="#">
+        <div class="mailing__form-box">
+         <input class="mailing__form-input" type="e-mail" placeholder="Ваш e-mail" required>
+         <button class="mailing__form-btn btn" type="button">
+          отправить
+         </button>
+        </div>
+       </form>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  @@include('html/footer.html', {})
+ </div>
+ <div class="reg-modal visibility-hidden" id="reg" data-modal>
+  <div class="reg-modal__window modal-window">
+   <button class="reg-modal__close modal-close" type="button" data-modal-close>
+    <span class="visually-hidden">
+     Закрыть
+    </span>
+   </button>
+   <h3 class="reg-modal__title modal-title">
+    Создайте акаунт
+   </h3>
+   <form action="#" class="reg-modal__form modal-form">
+    <div class="modal-form__input-box">
+     <input class="modal-form__input" type="text" placeholder="Имя" required autofocus>
+     <input class="modal-form__input" type="e-mail" placeholder="E-mail" required>
+     <input class="modal-form__input" type="password" placeholder="Пароль" required>
+    </div>
+    <button class="modal-form__btn btn">
+     Создать акаунт
+    </button>
+   </form>
+   <a class="reg-modal__link" href="#" data-modal-button="log">
+    Уже зарегестрированны?
+   </a>
+  </div>
+ </div>
+ <div class="log-modal visibility-hidden" id="log" data-modal>
+  <div class="log-modal__window modal-window">
+   <button class="log-modal__close modal-close" type="button" data-modal-close>
+    <span class="visually-hidden">
+     Закрыть
+    </span>
+   </button>
+   <h3 class="log-modal__title modal-title">
+    Вход
+   </h3>
+   <form action="#" class="log-modal__form modal-form">
+    <div class="modal-form__input-box">
+     <input class="modal-form__input" type="text" placeholder="Имя" required autofocus>
+     <input class="modal-form__input" type="password" placeholder="Пароль" required>
+    </div>
+    <button class="modal-form__btn btn">
+     Создать акаунт
+    </button>
+   </form>
+   <a class="log-modal__link" href="#" data-modal-button="reg">
+    Создайте новый акаунт
+   </a>
+  </div>
+ </div>
+ <div class="overlay"></div>
+ <script type="module" src="js/app.min.js"></script>
+</body>
+
+</html>
